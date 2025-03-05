@@ -8,11 +8,29 @@
 
 body {
     background-color: azure;
+    margin: 30px;
 }
 
 #table {
+     
     background-color: azure;
     height: 200px;
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    margin: 20px auto;
+    border-spacing: 0px;
+    
+        
+    
+}
+
+#table2 {
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    margin: 6px;
+    
 }
 
 .footer {
@@ -24,9 +42,16 @@ body {
 }
 
 .bio {
-    font-weight: bold;
+    
+    padding: 6px;
 }
 
 .h6 {
     font-family:'Courier New', Courier, monospace;
 }
+
+.td, th {
+    padding: 15px;
+    
+}
+
